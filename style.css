@@ -1,0 +1,56 @@
+.container {
+  max-width: 95%;
+  margin: 0 auto;
+  position: relative;
+  min-height: 100vh;
+}
+
+svg {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 0;
+  width: 35%;
+  height: 100%;
+}
+
+#svg_44:hover {
+  fill: red;
+  stroke-dasharray: 7, 3, 1, 3;
+}
+
+#svg_33:hover {
+  fill: rgb(0, 0, 127);
+  stroke-dasharray: 7, 3, 1, 3;
+}
+
+#svg_33:hover+#svg_34 {
+  stroke-dasharray: 7, 3, 1, 3;
+}
+
+#svg_34:hover~#svg_44 {
+  stroke: rgb(0, 0, 255);
+  fill: rgb(86, 86, 255);
+}
+
+
+#svg_47:hover {
+  stroke-width: 30px;
+  stroke-dasharray: 10, 5, 3, 8, 2;
+}
+
+#svg_48:hover {
+  stroke-width: 2px;
+  fill: #fe4368;
+  stroke: #90ee90;
+  transform: rotate(5deg);
+  transform-origin: center;
+}
+
+#svg_49:hover {
+  stroke-width: 2px;
+  fill: #fccb4e;
+  stroke: #2e39f9;
+  transform: rotate(8deg);
+  transform-origin: center;
+}
